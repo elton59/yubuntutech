@@ -1,0 +1,20 @@
+.header {
+    padding: 25px 0;
+    text-align: center;
+    background: white;
+    height: 1px;  
+ 
+  }
+  .headerimg {
+    align-items: 'center';
+    position:absolute;
+    top:-14%;
+    width:100%;
+    height:0px
+  } .stickysection
+  {
+    position:sticky;
+    top:0;
+    z-index: 999;
+  
+  }

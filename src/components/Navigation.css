@@ -1,0 +1,22 @@
+.navigation {
+    background-color:white;
+    top:7.8%;
+    left:0;
+    height:45px;
+    width:100%;
+    z-index:9999;
+    box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2) ;
+  }
+  .navigationlink
+  {
+   
+    font-size:18px;
+    margin-bottom:2px;
+    padding:6px;
+    display:inline-block;
+    color:#000;
+    font-weight:900;
+    z-index:9999;
+    text-transform: uppercase;
+  }
+ 

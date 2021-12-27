@@ -1,0 +1,153 @@
+@media screen and (max-width: 540px) {
+    .teamseaction {
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px #131818;
+        transition: 0.3s;
+        width:93%;
+        height:30%;
+        align-self:center;
+        padding:0.5%;
+        margin-top:4%;
+        background-color: white;
+        border-radius:10;
+        left:10%;
+        
+        margin-left:3%
+      }
+      
+}
+
+@media screen and (min-width: 780px) {
+.teamseaction {
+        /* Add shadows to create the "card" effect */
+        position:absolute;
+        box-shadow: 0 4px 8px #0d0e0e;
+        transition: 0.3s;
+        width:20%;
+        margin:2%;  
+        border-left-width:15%;
+        padding:0.3%;
+        height:300%;
+        
+        
+      }
+}
+.teambodyheader {
+  /* Add shadows to create the "card" effect */
+  width:105%;
+  margin-top:-25px;
+  margin-bottom: 3%;
+
+   }
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  
+}
+.teamseaction2 {
+  /* Add shadows to create the "card" effect */
+
+  box-shadow: 0 4px 8px #0d0e0e;
+  transition: 0.3s;
+  width:95%;
+  overflow: hidden;
+  margin:2%;  
+  border-left-width:15%;
+  padding:0.3%;
+
+
+
+  
+}
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  display:inline-block
+}
+
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: rgb(255, 255, 255);
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+
+
+}
+.cardimage {
+  border-radius: 18px;
+  filter: grayscale(100%);
+  height:15vw;
+   object-fit: cover;
+   width: 70%;
+   padding-top:3%
+}
+.cardimage2 {
+  position:relative;
+  left:-50%;
+  align-items: center;
+  border-radius: 18px;
+  height:25vw;
+   object-fit: cover;
+   width: 200%;
+   padding-top:3%
+}
+.cardimage3 {
+  border-radius: 18px;
+  height:15vw;
+   object-fit: cover;
+   width: 100%;
+   padding-top:3%;
+}
+.iconlinks{
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+.iconlinks:hover {
+  color:rgba(84, 1, 74, 0.7);
+  font-size: 32px
+}
+.teampic
+{
+ padding-top:30px;
+
+}
+@media screen and (max-width: 540px) {
+  .cardimage {
+    filter: grayscale(100%);
+    height:55vw;
+     object-fit: cover;
+     width: 70%;
+     padding-top:3%
+  }
+}
+

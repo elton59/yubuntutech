@@ -1,0 +1,98 @@
+@media screen and (max-width: 540px) {
+    .projectseaction {
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px #131818;
+        transition: 0.3s;
+        width:93%;
+        height:30%;
+        align-self:center;
+        padding:0.5%;
+        margin-top:4%;
+        background-color: white;
+        border-radius:10;
+        left:10%;
+        display:none;
+        margin-left:3%
+      }
+      .projectbodyheader {
+        /* Add shadows to create the "card" effect */
+        width:100%;
+        margin-top:-20px;
+        margin-bottom: 3%;
+        background-color:#E1BEE7;
+      }
+}
+/* For Tablets */
+
+@media screen and (min-width: 780px) {
+.projectseaction {
+        /* Add shadows to create the "card" effect */
+        position:absolute;  
+        left:77.3%; 
+        height:301.7%;
+        box-shadow: 0 4px 8px #131818;
+        transition: 0.3s;
+        width:20%;
+        margin:2%;
+        border-right-width:15%;
+        border-left-width:15%;
+        padding:0.3;
+        overflow: scroll;
+       
+      }
+     
+      .projectbodyheader {
+     /* Add shadows to create the "card" effect */
+     width:100%;
+     margin-top:-20px;
+     margin-bottom: 3%;
+     background-color:#E1BEE7;
+      }
+      .projectcard {
+        padding:10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 200px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+       display:inline-block
+      }
+      
+      .projectprice {
+        color: rgb(119, 69, 69);
+        font-size: 15px;
+        display: inline;
+      }
+      .projectdescription {
+        color: rgb(7, 4, 4);
+        font-size: 16px;
+    
+      }
+      .projectsectionheader {
+        color: grey;
+        font-size: 22px;
+      }
+      .projectcardbutton {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      
+      .projectcardbutton:hover {
+        opacity: 0.7;
+      }
+      .projectcardimage {
+        height:15vw;
+         object-fit: cover;
+         width: 100%;
+         padding-top:3%;
+         display: inline;
+      }
+      
+}
